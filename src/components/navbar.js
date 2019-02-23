@@ -21,14 +21,17 @@ class NavbarPage extends Component {
       <MDBNavbar color="indigo" dark expand="md">
         <MDBContainer>
           <Logo  />
-          <Link to="/" className="navbar-brand">
-            <strong className="ml-3 white-text">Creative Agency</strong></Link>
+          <Link to="/" className="navbar-brand" href="#">
+          <img src="http://placehold.it/150x50?text=Logo" alt=""></img>
+            <strong className="ml-3 white-text"></strong></Link>
           <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
                 <CustomNavLink to="#!">Home</CustomNavLink>
-                <CustomNavLink to="#!">About</CustomNavLink>
-                <CustomNavLink to="#!">Projects</CustomNavLink>
+                <CustomNavLink to="#!">Custom Parties</CustomNavLink>
+                <CustomNavLink to="#!">Party Shop</CustomNavLink>
+                <CustomNavLink to="#!">Work in Progress</CustomNavLink>
+                <CustomNavLink to="#!">Contact</CustomNavLink>
                 <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>
@@ -51,7 +54,7 @@ class NavbarPage extends Component {
                   <MDBIcon fab icon="twitter" className="ml-1" />
                 </CustomNavLink>
                 <CustomNavLink to="#!">
-                  <MDBIcon fab icon="linkedin" className="ml-1" />
+                  <MDBIcon fab icon="instagram" className="ml-1" />
                 </CustomNavLink>
               </div>
             </MDBNavbarNav>
