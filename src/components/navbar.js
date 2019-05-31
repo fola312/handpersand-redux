@@ -6,7 +6,7 @@ import {
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
 import { ReactComponent as Logo } from "../images/light-bulb.svg";
-import drawerToggle from "./DrawerToggle";
+
 
 class NavbarPage extends Component {
   state = {
