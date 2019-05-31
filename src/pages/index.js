@@ -4,7 +4,6 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import Layout from '../components/layout';
 import Intro from '../components/mask';
-import SEO from '../components/seo';
 import Carousel from '../components/carousel';
 import AboutSection from '../components/aboutSection'
 import Card from '../components/card'
@@ -17,7 +16,6 @@ class App extends Component {
     return (
       <>
         <Layout>
-          <SEO title="Home" keywords={[`gatsby`, `MDBReact`, `react`, `Material Design For Bootstrap`]} />
         <Carousel />
         <Intro />
         <main>
