@@ -6,6 +6,7 @@ import {
 import { Link } from 'gatsby';
 import CustomNavLink from './customLink';
 import { ReactComponent as Logo } from "../images/light-bulb.svg";
+import drawerToggle from "./DrawerToggle";
 
 class NavbarPage extends Component {
   state = {
@@ -21,25 +22,24 @@ class NavbarPage extends Component {
       <MDBNavbar color="indigo" dark expand="md">
         <MDBContainer>
           <Logo  />
-          <Link to="/" className="navbar-brand" href="#">
-          <img src="http://placehold.it/150x50?text=Logo" alt=""></img>
-            <strong className="ml-3 white-text"></strong></Link>
+          <Link to="/" className="navbar-brand">
+            <strong className="ml-3 white-text">Handpersand</strong></Link>
           <MDBNavbarToggler name="navbar-toggler" onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left>
                 <CustomNavLink to="#!">Home</CustomNavLink>
-                <CustomNavLink to="#!">Custom Parties</CustomNavLink>
                 <CustomNavLink to="#!">Party Shop</CustomNavLink>
-                <CustomNavLink to="#!">Work in Progress</CustomNavLink>
-                <CustomNavLink to="#!">Contact</CustomNavLink>
+                <CustomNavLink to="#!">Custom Parties</CustomNavLink>
+                <CustomNavLink to="#!">Crafts</CustomNavLink>
+                <CustomNavLink to="#!">Store</CustomNavLink>
                 <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>
                     <div className="d-none d-md-inline">About</div>
                   </MDBDropdownToggle>
                   <MDBDropdownMenu right>
+                    <MDBDropdownItem href="#!">About Me</MDBDropdownItem>
                     <MDBDropdownItem href="#!">Contact</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Articles</MDBDropdownItem>
                     <MDBDropdownItem href="#!">Testimonials</MDBDropdownItem>
                   </MDBDropdownMenu>
                 </MDBDropdown>
@@ -55,6 +55,9 @@ class NavbarPage extends Component {
                 </CustomNavLink>
                 <CustomNavLink to="#!">
                   <MDBIcon fab icon="instagram" className="ml-1" />
+                </CustomNavLink>
+                <CustomNavLink to="#!">
+                  <MDBIcon fab icon="pinterest" className="ml-1" />
                 </CustomNavLink>
               </div>
             </MDBNavbarNav>

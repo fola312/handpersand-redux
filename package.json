@@ -15,9 +15,10 @@
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
-    "mdbreact": "4.10.0",
+    "mdbreact": "git+https://oauth2:o6-SURkRk3NKCDP9aBUd@git.mdbootstrap.com/mdb/react/re-pro.git",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
+    "react-burger-menu": "^2.6.5",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
   },
@@ -41,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap"
+    "url": "add url"
   },
   "bugs": {
-    "url": "https://github.com/anna-morawska/gatsby-material-design-for-bootstrap/issues"
+    "url": "add url"
   }
 }
