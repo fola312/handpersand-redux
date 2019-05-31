@@ -1,10 +1,10 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
-import image2 from "../images/mockup3a.jpg"
+import image2 from "../images/girl.png"
 
 const CardExample = () => {
     return (
-        <MDBCol style={{ maxWidth: "22rem" }}>
+        <MDBCol style={{ maxWidth: "22rem"}}>
             <MDBCard>
             <MDBCardImage className="img-fluid" src={image2} alt=""  waves />
                 <MDBCardBody>
