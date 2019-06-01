@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBRotatingCard, MDBIcon, MDBContainer } from "mdbreact";
-import Laura from '../images/Laura.jpeg'
+import Laura from '../images/laura.jpeg'
 
 class Profile extends Component { 
     state = {
