@@ -1,7 +1,6 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from
     "mdbreact";
-import image4 from "../images/carousel4.jpg"
 import image2 from "../images/carousel2.jpg"
 import image3 from "../images/carousel3.jpg"
 import image5 from "../images/carousel5.jpg"
