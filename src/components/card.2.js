@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
-import image2 from "../images/turtle.png"
+import image2 from "../images/Hand2.jpeg"
 
 const CardExample = () => {
     return (

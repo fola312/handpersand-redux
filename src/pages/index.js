@@ -10,6 +10,7 @@ import Card from '../components/card'
 import Card2 from '../components/card.1'
 import Card3 from '../components/card.2'
 import { MDBRow } from 'mdbreact'
+import Profile from '../components/profile';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
         <Carousel />
         <Intro />
         <main>
+          <Profile/>
           <AboutSection />
           <section id="cardSection">
             <h2 className="h1-responsive text-center font-weight-bold mb-5">
