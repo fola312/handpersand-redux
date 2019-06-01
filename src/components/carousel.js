@@ -5,14 +5,15 @@ import image4 from "../images/carousel4.jpg"
 import image2 from "../images/carousel2.jpg"
 import image3 from "../images/carousel3.jpg"
 import image5 from "../images/carousel5.jpg"
+import image1 from "../images/logo.png"
 
 const CarouselPage = () => {
     return (
-        <MDBCarousel activeItem={1} length={4} className="z-depth-1 w-100">
+        <MDBCarousel activeItem={1} length={4} className=" w-100">
             <MDBCarouselInner>
                 <MDBCarouselItem itemId="1">
                     <MDBView>
-                        <img className="d-block w-100" src={image4} alt="First slide" />
+                        <img className="d-block w-100" src={image1} alt="First slide" />
                         <MDBMask overlay="black-strong" />
                     </MDBView>
                 </MDBCarouselItem>
