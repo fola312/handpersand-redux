@@ -4,7 +4,7 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from
 import image2 from "../images/carousel2.jpg"
 import image3 from "../images/carousel3.jpg"
 import image5 from "../images/carousel5.jpg"
-import image1 from "../images/logo.png"
+import image1 from "../images/Logo.png"
 
 const CarouselPage = () => {
     return (
